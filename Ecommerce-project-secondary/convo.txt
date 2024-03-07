@@ -1,0 +1,52 @@
+1st commit by Suprotim
+    done-{
+        so react setup is done 
+        the first setup for tailwind components are done 
+        nav bar and product list Ui added 
+    }
+
+    next instruction{
+        do the sign up and login routes
+    } 
+    
+
+    Bratin: {
+        -button er badge take full rounded korlam, age rounded-md chilo
+        -signup page add korlam
+        -login page add korlam
+        -Routing add korlam using react-router-dom
+        (signup and login er ja ja add korlam kichhu dekhar arr dorkar nei just proceed with the latter stuff)
+        -Cart page add korlam (routing o add kore diyechi)
+        -Check out page and its routing o addk kore diyechi
+        -Product details page banalam and otar routing o add kore diyechi
+    }
+
+    Suprotim:{
+        changed the product details 
+        installing json-server to create a dummy api 
+        used the dummy json product and moved into data.json
+        then ran the json server by "json-server --watch data.json --port 8080" to fetch the data
+        then using Selector fetched the data from this api to Product.js 
+    }
+      Suprotim:{
+        changed the brand and category portion acc, to the new data given by dummyjson
+        made the category checkbox functional by calling fetchAllProductsByFilters in productAPI.js 
+        made the sorting filter BUT ITS FOR SOME REASON NOT SHOWING THE PRODUCTS AS INTENDED 
+        debug korish eta ektu 
+    }
+    Bratin: {
+        -Multiple sorting based on category has been done, uncheck korle abr revert back hoye jachhe but multiple categories eksathe select hochhe na
+        -Pagination o complete, mane per page has a limited no. of products displayed and rest baki pages e dekha jabe
+        -app folder er moddhe ekta constants.js banano hoyeche jar moddhe constants store kore export kora hochhe( like Items_Per_Page )
+        -list of bugs: {
+            1. sorting hochhe na ota korte hobe --> done just order wise hochhe na like ascending or descending order e
+            2. login page ta debug korte bhule gechi lol 
+            3. pagination er somosya --> video teh dekhiyeche req.headers e "X-Total-Count" bole ekta header ache but ami toh pelam na, hence kichu jinis product slice e gondogol hoyeche so possible je jehetu eta ek bochor ager so maybe some things have changed or might have become obsolete, hence we need to read the docs.
+            (paginagion also done)
+       }
+        Debugging: {
+            1. partially done, finally hoye jabe after backend
+            2. login er debug toh jani so kinda sorted e
+            3. debugged
+        }
+    }
